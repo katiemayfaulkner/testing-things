@@ -1,0 +1,72 @@
+* {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+  background-color: #efbff8;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1 {
+  color: black;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+  margin: 40px;
+  cursor: pointer;
+}
+
+.btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 0;
+}
+
+.btns .btn {
+  padding: 30px;
+  font-size: 30px;
+  color: white;
+  background-color: turquoise;
+  margin: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 3px solid white;
+}
+
+.btns .btn:hover {
+  background-color: coral;
+}
+
+button {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b397ff;
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#textInput {
+  display: block;
+  margin: 30px auto;
+}
+
+#colorInput {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff996c), color-stop(46%, #fb12e0), to(#00ccff));
+  background-image: linear-gradient(90deg, #ff996c 0%, #fb12e0 46%, #00ccff 100%);
+}
+/*# sourceMappingURL=styles.css.map */
